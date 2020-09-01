@@ -1,0 +1,87 @@
+﻿body{
+	background-repeat:no-repeat;
+	background-image:url('../../../Public/Pictures/Sample Pictures/Hydrangeas.jpg');
+        background-size:100% 150%;
+        background-color:#D3D3D3;
+}
+ul{
+	list-style-type:none;
+	color:aqua;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#009900;
+	text-align:center;
+}
+li { 
+    float:left;
+    font-size:20px;
+     }
+li a{
+   display:block;
+   color:white;
+   text-align:center;
+   padding:10px 30px;
+   text-decoration:none;
+	}
+li a:hover{
+	background-color:white;
+	color:#009900;
+}
+h1{
+    width:100%;
+    color:white;
+    font-family:Lato;
+    text-align:center;
+    text-shadow:1px 2px grey;
+    }
+
+h2{
+	font-size:25px;
+	color:white;
+	text-align:center;
+	margin-top:80px;
+	font-family:Lato;
+	
+}
+ 
+table{
+border-collapse:collapse;
+font-family:Lato;
+width:60%;
+text-align:center;
+margin-top:80px;
+}
+
+th{
+	
+	font-size:20px;
+	text-align:left;
+	padding-top:8px;
+	background-color:#00FF00;
+	
+}
+
+td{
+	
+	font-size:15px;
+	text-align:left;
+    padding:9px;
+	
+}
+tr:nth-child(odd)
+{
+	background-color:#00FF00;
+}	
+tr:nth-child(even)
+{
+	background-color:#FFFFFF;
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:#00FF00;
+	text-align:center;
+}

@@ -1,0 +1,59 @@
+﻿body{
+	
+	background-image:url('../../../Public/Pictures/Sample Pictures/Penguins.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0;
+}
+.navbar{
+	
+	font-family:Lato;
+	width:100%;
+	background-color:#44BD49;
+	overflow:auto;
+	
+}
+.navbar a{
+	
+	font-family:Lato;
+	float:left;
+	padding:12px;
+	color:white;
+	text-decoration:none;
+	font-size:27px;
+	width:31%;
+	text-align:center;
+}
+.navbar a:hover{
+	
+	background-color:gray;
+}
+h1{
+color:white;
+font-size:50px;
+padding-top:5%;
+padding-left:40%;
+font-family:Lato;
+}
+h2{
+	padding-left:45%;
+	font-size:30px;
+	font-family:lato;
+	color:white;
+}
+h3{
+	color:white;
+	font-family:lato;
+	font-size:20px;
+	padding-left:47%;
+	
+}
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:#808080;
+ color:white;
+ text-align:center;
+}
